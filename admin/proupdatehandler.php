@@ -28,6 +28,7 @@ if (mysqli_query($connect,$sql)) {
 
 }
 
+?>
 
 
 

@@ -7,11 +7,14 @@ include('adminpartials/head.php');
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
-   <?php
-    include('adminpartials/header.php');
-    include('adminpartials/aside.php');
-   ?>
+  <?php
+  include('adminpartials/header.php');
+  include('adminpartials/aside.php');
+  
 
+  ?>
+  <!-- Left side column. contains the logo and sidebar -->
+  
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -29,14 +32,35 @@ include('adminpartials/head.php');
 
     <!-- Main content -->
     <section class="content">
-
-      <h1>Hello</h1>
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+        <div class="col-sm-9">
+         <a href="products.php">
+            <button style="color: green">Add Products</button>
+          </a>
+          <hr>
+        </div>
+        <div class="col-sm-9">
+         <a href="categories.php">
+            <button style="color: green">Add Categories</button>
+          </a>
+          <hr>
+        </div>
+         <div class="col-sm-9">
+         <a href="orders.php">
+            <button style="color: green">See all Orders</button>
+          </a>
+          <hr>
+        </div>
+        
+        
+        
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <?php
-  include('adminpartials/footer.php');
-  ?>
+ <?php
+ include('adminpartials/footer.php');
+ ?>
 </body>
 </html>
